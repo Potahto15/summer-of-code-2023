@@ -1,0 +1,144 @@
+/* Navbar */
+
+nav {
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.navbar-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-links a.active {
+  color: lightblue;
+}
+
+/* Carousel */
+.carousel {
+  position: relative;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+/* Section */
+.section {
+  padding: 20px;
+}
+
+.section-heading {
+  text-align: left;
+  color: #260041;
+  font-size: 36px;
+  font-family: Cambay;
+  line-height: 46px;
+  letter-spacing: 1.8px;
+}
+
+/* Cards */
+.card {
+  position: relative;
+  display: inline-block;
+  width: 380px;
+  height: 525px;
+  background: white;
+  margin: 10px;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.20);
+  border-radius: 10px"
+}
+
+.card img {
+  width: 132px;
+  height: 132px;
+  text-align:center;
+  
+}
+
+
+h3{
+ color: var(--text-color, #0F001A);
+ font-size: 20px;
+ font-family: Cambay;
+ line-height: 30px;
+ letter-spacing: 0.4px;
+ padding:10px;
+}
+
+p{
+ color: var(--text-color, #0F001A);
+ font-size: 16px;
+ font-family: Cambay;
+ line-height: 26px;
+ opacity: 0.6000000238418579;
+ display: flex;
+ width: 284px;
+ height: 103px;
+ flex-direction: column;
+ flex-shrink: 0;
+ padding: 10px;
+}
+
+/* Inline Cards */
+.card-inline {
+  .card img{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+  display: flex;
+  justify-content: space-between;
+  background: rgba(74, 153, 211, 0.10);
+  
+}
+
+/* Testimonial */
+.testimonial {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-image {
+  width: 421px;
+  height: 490px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.testimonial-content {
+  flex: 1;
+  padding: 100px
+}
+
+/* Footer */
+footer {
+  background: lightblue;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
